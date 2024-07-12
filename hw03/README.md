@@ -19,6 +19,8 @@ augmentationTransforms = transforms.Compose([
 ## Hard  
 加深Classifier使用的模型，與模型在每個epoch紀錄一個checkpoint、loss、accuracy  
 在第302-epoch結束後accuracy可達0.755952418  
+![](https://i.imgur.com/tiSp1YA.png)
+![](https://i.imgur.com/fTQt5uG.png)
 ```python
 class Classifier(nn.Module):
     def __init__(self):
