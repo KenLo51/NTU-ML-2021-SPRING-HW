@@ -1,5 +1,5 @@
 ## Easy  
-`DataLoader`中的`num_workers`從8改為0  
+`DataLoader`中的`num_workers`從8改為0，否則會報錯  
 其餘不做任何修改200-epoch後accuracy達到0.503  
 ```python
 # Construct data loaders.
