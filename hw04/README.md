@@ -1,3 +1,4 @@
+程式輸出結果在result資料夾中
 ## Simple  
 - 70000 steps後最佳accuracy為0.7552  
 ## Medium  
