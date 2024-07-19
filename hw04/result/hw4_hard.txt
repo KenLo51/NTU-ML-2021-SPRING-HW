@@ -1,0 +1,89 @@
+[Info]: Starting train.
+[Info]: Use cuda:0 now!
+[Info]: Finish loading data!
+[Info]: Finish creating model!
+Train:   0% 0/2000 [00:00<?, ? step/s]D:\Program Files\Python\Python311\Lib\site-packages\torch\nn\functional.py:5504: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+Train: 100% 2000/2000 [01:35<00:00, 20.90 step/s, accuracy=0.42, loss=2.95, step=2000]
+Valid: 100% 6912/6944 [00:02<00:00, 2727.88 uttr/s, accuracy=0.30, loss=3.28]
+Train: 100% 2000/2000 [01:33<00:00, 21.37 step/s, accuracy=0.38, loss=2.91, step=4000]
+Valid: 100% 6912/6944 [00:02<00:00, 2871.93 uttr/s, accuracy=0.39, loss=2.82]
+Train: 100% 2000/2000 [01:33<00:00, 21.37 step/s, accuracy=0.40, loss=2.62, step=6000]
+Valid: 100% 6912/6944 [00:02<00:00, 2824.44 uttr/s, accuracy=0.39, loss=2.70]
+Train: 100% 2000/2000 [01:42<00:00, 19.44 step/s, accuracy=0.46, loss=2.47, step=8000]
+Valid: 100% 6912/6944 [00:03<00:00, 2267.76 uttr/s, accuracy=0.44, loss=2.45]
+Train: 100% 2000/2000 [01:55<00:00, 17.33 step/s, accuracy=0.48, loss=2.51, step=1e+4]
+Valid: 100% 6912/6944 [00:03<00:00, 2225.95 uttr/s, accuracy=0.47, loss=2.36]
+Step 10000, best model saved. (accuracy=0.4698)
+Train: 100% 2000/2000 [01:56<00:00, 17.12 step/s, accuracy=0.59, loss=1.93, step=12000]
+Valid: 100% 6912/6944 [00:03<00:00, 2177.36 uttr/s, accuracy=0.49, loss=2.26]
+Train: 100% 2000/2000 [02:05<00:00, 15.88 step/s, accuracy=0.59, loss=1.90, step=14000]
+Valid: 100% 6912/6944 [00:03<00:00, 2053.44 uttr/s, accuracy=0.49, loss=2.24]
+Train: 100% 2000/2000 [02:08<00:00, 15.57 step/s, accuracy=0.52, loss=2.13, step=16000]
+Valid: 100% 6912/6944 [00:03<00:00, 2067.33 uttr/s, accuracy=0.51, loss=2.13]
+Train: 100% 2000/2000 [02:09<00:00, 15.49 step/s, accuracy=0.57, loss=1.78, step=18000]
+Valid: 100% 6912/6944 [00:03<00:00, 2081.96 uttr/s, accuracy=0.52, loss=2.14]
+Train: 100% 2000/2000 [02:10<00:00, 15.35 step/s, accuracy=0.52, loss=1.90, step=2e+4] 
+Valid: 100% 6912/6944 [00:03<00:00, 2088.24 uttr/s, accuracy=0.54, loss=2.05]
+Step 20000, best model saved. (accuracy=0.5370)
+Train: 100% 2000/2000 [02:08<00:00, 15.58 step/s, accuracy=0.61, loss=1.77, step=22000]
+Valid: 100% 6912/6944 [00:03<00:00, 2029.07 uttr/s, accuracy=0.54, loss=1.99]
+Train: 100% 2000/2000 [02:07<00:00, 15.68 step/s, accuracy=0.64, loss=1.55, step=24000]
+Valid: 100% 6912/6944 [00:03<00:00, 2095.21 uttr/s, accuracy=0.55, loss=1.91]
+Train: 100% 2000/2000 [02:07<00:00, 15.68 step/s, accuracy=0.52, loss=1.94, step=26000]
+Valid: 100% 6912/6944 [00:03<00:00, 2072.88 uttr/s, accuracy=0.57, loss=1.93]
+Train: 100% 2000/2000 [02:08<00:00, 15.56 step/s, accuracy=0.60, loss=1.78, step=28000]
+Valid: 100% 6912/6944 [00:03<00:00, 2033.26 uttr/s, accuracy=0.57, loss=1.86]
+Train: 100% 2000/2000 [02:08<00:00, 15.55 step/s, accuracy=0.59, loss=1.82, step=3e+4] 
+Valid: 100% 6912/6944 [00:03<00:00, 2079.43 uttr/s, accuracy=0.57, loss=1.85]
+Step 30000, best model saved. (accuracy=0.5729)
+Train: 100% 2000/2000 [02:08<00:00, 15.54 step/s, accuracy=0.55, loss=1.93, step=32000]
+Valid: 100% 6912/6944 [00:03<00:00, 2127.12 uttr/s, accuracy=0.57, loss=1.84]
+Train: 100% 2000/2000 [02:07<00:00, 15.66 step/s, accuracy=0.65, loss=1.46, step=34000]
+Valid: 100% 6912/6944 [00:03<00:00, 2088.88 uttr/s, accuracy=0.58, loss=1.81]
+Train: 100% 2000/2000 [02:07<00:00, 15.74 step/s, accuracy=0.58, loss=1.74, step=36000]
+Valid: 100% 6912/6944 [00:03<00:00, 2080.06 uttr/s, accuracy=0.59, loss=1.76]
+Train: 100% 2000/2000 [02:07<00:00, 15.74 step/s, accuracy=0.69, loss=1.14, step=38000]
+Valid: 100% 6912/6944 [00:03<00:00, 2072.58 uttr/s, accuracy=0.59, loss=1.79]
+Train: 100% 2000/2000 [02:07<00:00, 15.74 step/s, accuracy=0.69, loss=1.22, step=4e+4] 
+Valid: 100% 6912/6944 [00:03<00:00, 2127.14 uttr/s, accuracy=0.60, loss=1.74]
+Step 40000, best model saved. (accuracy=0.5997)
+Train: 100% 2000/2000 [02:07<00:00, 15.66 step/s, accuracy=0.66, loss=1.21, step=42000]
+Valid: 100% 6912/6944 [00:03<00:00, 2093.95 uttr/s, accuracy=0.59, loss=1.76]
+Train: 100% 2000/2000 [02:09<00:00, 15.49 step/s, accuracy=0.62, loss=1.46, step=44000]
+Valid: 100% 6912/6944 [00:03<00:00, 2023.14 uttr/s, accuracy=0.60, loss=1.72]
+Train: 100% 2000/2000 [02:09<00:00, 15.44 step/s, accuracy=0.63, loss=1.55, step=46000]
+Valid: 100% 6912/6944 [00:03<00:00, 2095.84 uttr/s, accuracy=0.62, loss=1.69]
+Train: 100% 2000/2000 [02:07<00:00, 15.67 step/s, accuracy=0.68, loss=1.17, step=48000]
+Valid: 100% 6912/6944 [00:03<00:00, 2074.77 uttr/s, accuracy=0.61, loss=1.70]
+Train: 100% 2000/2000 [02:08<00:00, 15.57 step/s, accuracy=0.65, loss=1.52, step=5e+4] 
+Valid: 100% 6912/6944 [00:03<00:00, 2104.15 uttr/s, accuracy=0.62, loss=1.67]
+Step 50000, best model saved. (accuracy=0.6165)
+Train: 100% 2000/2000 [02:08<00:00, 15.62 step/s, accuracy=0.68, loss=1.23, step=52000]
+Valid: 100% 6912/6944 [00:03<00:00, 2112.82 uttr/s, accuracy=0.62, loss=1.64]
+Train: 100% 2000/2000 [02:07<00:00, 15.65 step/s, accuracy=0.63, loss=1.32, step=54000]
+Valid: 100% 6912/6944 [00:03<00:00, 2071.35 uttr/s, accuracy=0.62, loss=1.64]
+Train: 100% 2000/2000 [02:08<00:00, 15.59 step/s, accuracy=0.71, loss=1.32, step=56000]
+Valid: 100% 6912/6944 [00:03<00:00, 2072.59 uttr/s, accuracy=0.64, loss=1.58]
+Train: 100% 2000/2000 [02:08<00:00, 15.57 step/s, accuracy=0.67, loss=1.42, step=58000]
+Valid: 100% 6912/6944 [00:03<00:00, 2089.51 uttr/s, accuracy=0.64, loss=1.60]
+Train: 100% 2000/2000 [02:07<00:00, 15.69 step/s, accuracy=0.73, loss=1.19, step=6e+4] 
+Valid: 100% 6912/6944 [00:03<00:00, 2100.94 uttr/s, accuracy=0.63, loss=1.63]
+Step 60000, best model saved. (accuracy=0.6424)
+Train: 100% 2000/2000 [02:07<00:00, 15.70 step/s, accuracy=0.65, loss=1.60, step=62000]
+Valid: 100% 6912/6944 [00:03<00:00, 2076.93 uttr/s, accuracy=0.63, loss=1.58]
+Train: 100% 2000/2000 [02:07<00:00, 15.68 step/s, accuracy=0.70, loss=1.28, step=64000]
+Valid: 100% 6912/6944 [00:03<00:00, 2048.94 uttr/s, accuracy=0.63, loss=1.60]
+Train: 100% 2000/2000 [02:07<00:00, 15.69 step/s, accuracy=0.70, loss=1.37, step=66000]
+Valid: 100% 6912/6944 [00:03<00:00, 2092.67 uttr/s, accuracy=0.64, loss=1.56]
+Train: 100% 2000/2000 [02:07<00:00, 15.69 step/s, accuracy=0.72, loss=1.07, step=68000]
+Valid: 100% 6912/6944 [00:03<00:00, 2087.61 uttr/s, accuracy=0.63, loss=1.59]
+Train: 100% 2000/2000 [02:07<00:00, 15.71 step/s, accuracy=0.70, loss=1.20, step=7e+4] 
+Valid: 100% 6912/6944 [00:03<00:00, 2125.81 uttr/s, accuracy=0.64, loss=1.56]
+Step 70000, best model saved. (accuracy=0.6424)
+Train:   0% 0/2000 [00:00<?, ? step/s]
+[Info]: Starting inference.
+[Info]: Use cuda:0 now!
+[Info]: Finish loading data!
+[Info]: Finish creating model!
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6000/6000 [00:19<00:00, 314.75it/s]
